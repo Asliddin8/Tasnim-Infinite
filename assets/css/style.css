@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #000000;
 }
 
 a {
@@ -52,13 +52,13 @@ h6 {
 
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: #000000;
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: #33eb92;
-  color: #fff;
+  color: #000000;
 }
 
 .back-to-top.active {
@@ -70,14 +70,16 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #000000;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  color: white;
+  /* box-shadow: rgba(248, 248, 248, 0.822) 0px 1px 1px 0px inset, rgba(255, 255, 255, 0.938) 0px 50px 100px -20px, rgba(233, 233, 233, 0.849), 0.3) 0px 30px 60px -30px; */
 }
 
 #header.header-scrolled {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 15px rgba(3, 212, 150, 0.897);
   padding: 12px 0;
 }
 
@@ -91,7 +93,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #5f687b;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -135,7 +137,7 @@ h6 {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #6a7489;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -243,7 +245,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #5f687b;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -356,7 +358,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #fff;
+  background: #05e97b;
   padding-top: 82px;
 }
 
@@ -365,11 +367,12 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #3e4450;
+  color: #000000;
+  
 }
 
 #hero h2 {
-  color: #858ea1;
+  color: #000000;
   margin: 10px 0 30px 0;
   font-size: 24px;
 }
@@ -383,36 +386,38 @@ h6 {
   padding: 8px 30px 10px 30px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
-  background: #16df7e;
+  color: #f0f0f0;
+  background: #0000004f;
   box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
 }
 
 #hero .btn-get-started:hover {
-  background: #206bfb;
-  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+  background: #0dda06;
+  box-shadow: 0 8px 28px rgba(3, 219, 3, 0.45);
 }
 
 #hero .btn-watch-video {
+  font-family: Comfortaa;
   font-size: 16px;
   display: inline-block;
   transition: 0.5s;
   margin-left: 25px;
-  color: #5f687b;
+  color: #ffffff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 #hero .btn-watch-video i {
-  color: #949cac;
+  color: #239905a9;
   font-size: 32px;
   line-height: 0;
   margin-right: 8px;
+  transition: 0.5s;
 }
 
 #hero .btn-watch-video:hover i {
-  color: #16df7e;
+  color: #000000;
 }
 
 #hero .animated {
@@ -483,7 +488,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f9fa;
+  background-color: #000000;
 }
 
 .section-title {
@@ -498,7 +503,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5f687b;
+  color: #16df7e;
   position: relative;
   z-index: 2;
 }
@@ -506,7 +511,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: #f0f1f3;
+  color: #098f4e;
   left: 0;
   right: 0;
   z-index: 1;
@@ -589,7 +594,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #5f687b;
+  color: #05e97b;
 }
 
 .about .content ul {
@@ -599,6 +604,7 @@ section {
 
 .about .content ul li {
   padding-bottom: 10px;
+  color: #05e97b;
 }
 
 .about .content ul i {
@@ -638,10 +644,12 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid #000000;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #000000;
+  box-shadow: rgba(255, 255, 255, 0.925) 0px 5px 15px;
+  margin:20px ;
 }
 
 .services .icon-box .icon {
@@ -651,6 +659,7 @@ section {
   justify-content: center;
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
+  color: white;
 }
 
 .services .icon-box .icon i {
@@ -666,7 +675,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #5f687b;
+  color: #05e97b;
   transition: ease-in-out 0.3s;
 }
 
@@ -674,6 +683,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: #05e97b;
 }
 
 .services .icon-box:hover {
