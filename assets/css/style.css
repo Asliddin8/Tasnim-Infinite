@@ -637,6 +637,7 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 600;
+  color: #fdfffe;
 }
 
 /*--------------------------------------------------------------
@@ -961,8 +962,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #206bfb;
-  border-color: #206bfb;
+  background: #19e207a2;
+  border-color: #19e207a2;
 }
 
 /*--------------------------------------------------------------
