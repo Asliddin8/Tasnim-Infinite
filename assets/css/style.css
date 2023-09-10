@@ -959,8 +959,13 @@ section {
 }
 
 .cta .cta-btn:hover {
+<<<<<<< HEAD
   background: #044776;
   border-color: #044776;
+=======
+  background: #19e207a2;
+  border-color: #206bfb;
+>>>>>>> 642d0801d177ebbe607eed15628d73a7cd2b072a
 }
 
 /*--------------------------------------------------------------
