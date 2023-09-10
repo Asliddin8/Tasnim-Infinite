@@ -9,14 +9,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  /* font-family: "Open Sans", sans-serif; */
-  color: #D0E6F1;
-}
 
+body {
+
+  color: #000000;
+  
+}
 a {
   color: #044776;
   text-decoration: none;
+  font-family: 'Krub', sans-serif;
 }
 
 a:hover {
@@ -30,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Krub', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -134,7 +136,6 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #d0dae6;
@@ -245,7 +246,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #4F709C;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -358,7 +359,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #044776;
+  background: #6ea6ce;
   padding-top: 82px;
 }
 
@@ -378,7 +379,6 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -387,7 +387,7 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #f0f0f0;
-  background: #D0E6F1;
+  background: #8195a9;
   box-shadow: 0 8px 28px #044776;
 }
 
@@ -626,7 +626,7 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #044776;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -646,8 +646,8 @@ section {
   border: 1px solid#D0E6F1;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #D0E6F1;
-  box-shadow: rgba(255, 255, 255, 0.925) 0px 5px 15px;
+  background: #75c8f2;
+  box-shadow: -6px 1px 29px 5px rgba(0, 129, 228, 0.62);
   margin:20px ;
 }
 
@@ -686,7 +686,7 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #eaecef;
+  border-color: #bdc6d3;
 }
 
 .services .icon-box:hover h4 a {
@@ -959,13 +959,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-<<<<<<< HEAD
-  background: #044776;
-  border-color: #044776;
-=======
   background: #19e207a2;
   border-color: #206bfb;
->>>>>>> 642d0801d177ebbe607eed15628d73a7cd2b072a
 }
 
 /*--------------------------------------------------------------
@@ -1106,7 +1101,6 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1169,7 +1163,7 @@ section {
   background: #044776;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #ffffff;
   transition: 0.4s;
   border-radius: 4px;
 }
@@ -1269,7 +1263,6 @@ section {
 
 #footer .footer-top p {
   font-size: 15;
-  font-style: italic;
   margin: 30px 0 0 0;
   padding: 0;
 }
